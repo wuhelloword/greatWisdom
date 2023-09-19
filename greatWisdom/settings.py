@@ -125,6 +125,25 @@ STATICFILES_DIRS = [        # 如果没有添加staticfiles_dirs，templates中�
     os.path.join(BASE_DIR, "static")
 ]
 
+LOGGING = {
+    'version': 1,       # 定义版本1
+    'disable_existing_loggers': False,
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': 'common/log/debug.log',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        }
+    }
+}
+
 # Default primary key field type
 # https:https://cloud.tencent.com/developer/article/1119369//docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
