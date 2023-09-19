@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -37,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'studyNoteWeb',
+    'littleGame',
+    'fileSystem'
 ]
 
 MIDDLEWARE = [
@@ -117,6 +121,9 @@ USE_TZ = False      # 指对时区的处理方式，True时， 存储到数据�
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATICFILES_DIRS = [        # 如果没有添加staticfiles_dirs，templates中的html文件在引用static中的js文件会404找不到文件
+    os.path.join(BASE_DIR, "static")
+]
 
 # Default primary key field type
 # https:https://cloud.tencent.com/developer/article/1119369//docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
