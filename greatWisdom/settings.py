@@ -126,20 +126,56 @@ STATICFILES_DIRS = [        # 如果没有添加staticfiles_dirs，templates中�
 ]
 
 LOGGING = {
-    'version': 1,       # 定义版本1
-    'disable_existing_loggers': False,
-    'handlers': {
-        'file': {
-            'level': 'INFO',
-            'class': 'logging.FileHandler',
-            'filename': 'common/log/debug.log',
+    'version': 1,                               # 定义版本1，版本1是目前唯一的版本格式
+    'disable_existing_loggers': False,          # 允许使用已有的默认过滤器
+
+    # 日志格式器
+    'formatters': {
+        'verbose':{                             # 定义一个格式器verbose
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
         },
+        'simple': {                             # 定义一个格式器simple
+            'format': '%(levelname)s %(message)s'
+        }
     },
+
+    # 日志过滤器
+    'filters': {
+        'require_debut_true': {
+            '()': 'django.utils.log.RequireDebugTrue',
+        },
+        # 'special': {      # 报错了，还没找到原因
+        #     '()': 'project.logging.SpecialFilter',
+        #     'foo': 'bar',
+        # }
+    },
+
+    # 日志处理器
+    'handlers': {
+        'file': {                               # 定义一个处理器file
+            'level': 'INFO',                    # 定义handler的日志级别
+            'class': 'logging.FileHandler',     # 定义文件类处理器，可以将日志写入文件中
+            'filename': os.path.join(BASE_DIR, 'logs/debug.log'), # 定义日志信息的存储路径，文件路径需要确认有可写权限
+            'formatter': 'verbose',              # 过滤规则使用 verbose格式器
+        },
+        # 'console': {
+        #     'level': 'INFO',
+        #     'class': 'logging.StreamHandler',
+        #     'filters': ['require_debug_true'],
+        #     'formatter': 'simple'
+        # },
+        # 'mail_admin': {
+        #     'level': 'ERROR',
+        #     'class': 'django.utils.log.AdminEmailHandler',  # 定义处理器类型，将错误信息发送到该网站的admin超级用户的有向
+        #     'filters': ['special']
+        # }
+    },
+    # 日志记录器
     'loggers': {
-        'django': {
-            'handlers': ['file'],
-            'level': 'INFO',
-            'propagate': True,
+        'django': {                             # 记录django项目中的信息
+            'handlers': ['file'],               # 使用 file日志处理器
+            'level': 'INFO',                    # 日志等级为DEBUG
+            'propagate': True,                  # 允许传播至上级记录器
         }
     }
 }
