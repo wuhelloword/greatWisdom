@@ -1,0 +1,391 @@
+INFO 2023-09-25 16:07:57,357 basehttp 6876 1432 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:08:01,346 basehttp 6876 1432 "GET /test HTTP/1.1" 200 1006
+INFO 2023-09-25 16:08:34,579 basehttp 6876 1432 "GET /test HTTP/1.1" 200 1006
+INFO 2023-09-25 16:08:34,667 basehttp 6876 1432 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-25 16:09:04,829 autoreload 11244 7296 Watching for file changes with StatReloader
+INFO 2023-09-25 16:09:05,024 basehttp 11244 10896 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:09:06,741 basehttp 11244 10896 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:09:09,431 basehttp 11244 10896 "GET /test HTTP/1.1" 200 994
+INFO 2023-09-25 16:09:52,575 autoreload 9352 7060 Watching for file changes with StatReloader
+INFO 2023-09-25 16:09:52,769 basehttp 9352 3760 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:09:55,424 basehttp 9352 3760 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:09:58,412 basehttp 9352 3760 "GET /test HTTP/1.1" 200 1002
+INFO 2023-09-25 16:10:12,004 basehttp 9352 3760 "GET /test HTTP/1.1" 200 1002
+INFO 2023-09-25 16:10:12,080 basehttp 9352 3760 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-25 16:10:22,560 autoreload 12160 12164 Watching for file changes with StatReloader
+INFO 2023-09-25 16:10:22,758 basehttp 12160 10516 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:10:26,193 basehttp 12160 10516 "GET /test HTTP/1.1" 200 1000
+INFO 2023-09-25 16:14:24,349 autoreload 11296 12224 Watching for file changes with StatReloader
+INFO 2023-09-25 16:14:24,635 basehttp 11296 5624 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:14:35,109 basehttp 11296 5624 "GET /test HTTP/1.1" 200 1062
+INFO 2023-09-25 16:14:58,576 autoreload 10392 7420 Watching for file changes with StatReloader
+INFO 2023-09-25 16:14:58,816 basehttp 10392 7160 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:15:02,405 basehttp 10392 7160 "GET /test HTTP/1.1" 200 1044
+INFO 2023-09-25 16:15:02,475 basehttp 10392 7160 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-25 16:15:34,044 autoreload 9808 11072 Watching for file changes with StatReloader
+INFO 2023-09-25 16:15:34,232 basehttp 9808 4468 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:15:38,101 basehttp 9808 4468 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:15:43,543 basehttp 9808 4468 "GET /test HTTP/1.1" 200 988
+INFO 2023-09-25 16:16:30,373 basehttp 9808 4468 "GET /test HTTP/1.1" 200 988
+INFO 2023-09-25 16:16:30,457 basehttp 9808 4468 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-25 16:22:58,964 autoreload 11356 6236 Watching for file changes with StatReloader
+INFO 2023-09-25 16:22:59,207 basehttp 11356 9228 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:23:27,181 basehttp 11356 9228 "GET /test HTTP/1.1" 200 1398
+INFO 2023-09-25 16:27:01,054 autoreload 12200 12284 Watching for file changes with StatReloader
+INFO 2023-09-25 16:27:01,239 basehttp 12200 9980 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:27:02,566 basehttp 12200 9980 "GET /upload HTTP/1.1" 200 1676
+INFO 2023-09-25 16:27:02,598 basehttp 12200 9980 "GET /static/js/upload.js HTTP/1.1" 200 1571
+INFO 2023-09-25 16:31:09,139 autoreload 12200 12284 C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py changed, reloading.
+INFO 2023-09-25 16:31:09,982 autoreload 11936 12212 Watching for file changes with StatReloader
+INFO 2023-09-25 16:33:16,652 autoreload 8564 8548 Watching for file changes with StatReloader
+INFO 2023-09-25 16:33:16,894 basehttp 8564 5148 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:33:24,056 basehttp 8564 5148 "GET /test HTTP/1.1" 200 1398
+INFO 2023-09-25 16:33:51,016 autoreload 11260 10568 Watching for file changes with StatReloader
+INFO 2023-09-25 16:33:51,214 basehttp 11260 10300 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:33:52,479 basehttp 11260 10300 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:33:52,506 basehttp 11260 10300 "GET /static/js/upload.js HTTP/1.1" 304 0
+INFO 2023-09-25 16:34:20,094 autoreload 10256 12268 Watching for file changes with StatReloader
+INFO 2023-09-25 16:34:20,260 basehttp 10256 7784 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:34:25,729 basehttp 10256 7784 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:34:27,085 basehttp 10256 7784 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:35:02,192 basehttp 10256 7784 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:35:02,230 basehttp 10256 7784 "GET /static/js/upload.js HTTP/1.1" 200 1571
+INFO 2023-09-25 16:35:59,744 autoreload 11288 8252 Watching for file changes with StatReloader
+INFO 2023-09-25 16:35:59,970 basehttp 11288 11144 "GET / HTTP/1.1" 200 205
+WARNING 2023-09-25 16:36:01,036 log 11288 11144 Not Found: /testvue.vue
+WARNING 2023-09-25 16:36:01,037 basehttp 11288 11144 "GET /testvue.vue HTTP/1.1" 404 2662
+INFO 2023-09-25 16:38:02,191 basehttp 11288 11144 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:38:04,226 basehttp 11288 11144 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:38:43,851 autoreload 13088 13092 Watching for file changes with StatReloader
+INFO 2023-09-25 16:38:44,005 basehttp 13088 10484 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:38:45,964 basehttp 13088 10484 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:38:51,479 basehttp 13088 10484 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:38:51,511 basehttp 13088 10484 "GET /static/js/upload.js HTTP/1.1" 200 1571
+INFO 2023-09-25 16:38:52,583 basehttp 13088 10484 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:38:52,595 basehttp 13088 10484 "GET /static/js/upload.js HTTP/1.1" 200 1571
+INFO 2023-09-25 16:38:53,640 basehttp 13088 10484 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:38:53,653 basehttp 13088 10484 "GET /static/js/upload.js HTTP/1.1" 200 1571
+INFO 2023-09-25 16:41:55,937 autoreload 10328 5112 Watching for file changes with StatReloader
+INFO 2023-09-25 16:41:56,111 basehttp 10328 13200 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:41:58,030 basehttp 10328 13200 "GET /upload HTTP/1.1" 200 1661
+INFO 2023-09-25 16:43:39,898 autoreload 10340 12636 Watching for file changes with StatReloader
+INFO 2023-09-25 16:43:40,100 basehttp 10340 4740 "GET / HTTP/1.1" 200 200
+INFO 2023-09-25 16:45:28,495 basehttp 10340 4740 "GET /test HTTP/1.1" 200 1430
+INFO 2023-09-25 16:45:40,762 basehttp 10340 4740 "GET /test HTTP/1.1" 200 1430
+INFO 2023-09-25 16:45:45,368 basehttp 10340 4740 "GET /upload HTTP/1.1" 200 1662
+INFO 2023-09-25 16:45:45,379 basehttp 10340 4740 "GET /static/js/upload.js HTTP/1.1" 304 0
+INFO 2023-09-26 09:04:08,525 autoreload 10340 12636 C:\Users\F1241948\Desktop\studyProject\greatWisdom\greatWisdom\settings.py changed, reloading.
+INFO 2023-09-26 09:04:09,350 autoreload 8556 10404 Watching for file changes with StatReloader
+INFO 2023-09-26 09:04:25,926 basehttp 8556 12088 "GET /upload HTTP/1.1" 200 1662
+INFO 2023-09-26 09:04:25,939 basehttp 8556 12088 "GET /static/js/upload.js HTTP/1.1" 304 0
+INFO 2023-09-26 09:05:53,999 autoreload 10480 4516 Watching for file changes with StatReloader
+INFO 2023-09-26 09:05:54,185 basehttp 10480 12712 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:05:56,286 basehttp 10480 12712 "GET /upload HTTP/1.1" 200 1662
+INFO 2023-09-26 09:06:57,037 autoreload 6040 4588 Watching for file changes with StatReloader
+INFO 2023-09-26 09:06:57,233 basehttp 6040 7536 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:06:59,472 basehttp 6040 7536 "GET /upload HTTP/1.1" 200 1662
+INFO 2023-09-26 09:33:09,996 autoreload 4368 6904 Watching for file changes with StatReloader
+INFO 2023-09-26 09:33:10,244 basehttp 4368 11480 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:33:13,573 basehttp 4368 11480 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:33:14,721 basehttp 4368 11480 "GET /upload HTTP/1.1" 200 1695
+INFO 2023-09-26 09:34:22,169 autoreload 8992 9644 Watching for file changes with StatReloader
+INFO 2023-09-26 09:34:22,345 basehttp 8992 2856 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:34:23,311 basehttp 8992 2856 "GET /upload HTTP/1.1" 200 1677
+INFO 2023-09-26 09:39:12,233 autoreload 11660 11968 Watching for file changes with StatReloader
+INFO 2023-09-26 09:39:12,413 basehttp 11660 12056 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:39:14,192 basehttp 11660 12056 "GET /upload HTTP/1.1" 200 2381
+INFO 2023-09-26 09:41:04,602 autoreload 12560 9684 Watching for file changes with StatReloader
+INFO 2023-09-26 09:41:04,798 basehttp 12560 11168 "GET / HTTP/1.1" 200 200
+ERROR 2023-09-26 09:41:23,185 log 12560 11168 Internal Server Error: /test
+Traceback (most recent call last):
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py", line 27, in get
+    return render(request, 'testvue.vue')
+  File "D:\virtualenv\nice\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'details()'
+ERROR 2023-09-26 09:41:23,189 basehttp 12560 11168 "GET /test HTTP/1.1" 500 143760
+INFO 2023-09-26 09:41:23,189 basehttp 12560 11168 - Broken pipe from ('10.197.24.246', 49253)
+ERROR 2023-09-26 09:41:24,067 log 12560 3300 Internal Server Error: /test
+Traceback (most recent call last):
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py", line 27, in get
+    return render(request, 'testvue.vue')
+  File "D:\virtualenv\nice\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'details()'
+ERROR 2023-09-26 09:41:24,067 basehttp 12560 3300 "GET /test HTTP/1.1" 500 143486
+INFO 2023-09-26 09:41:52,706 autoreload 12192 7620 Watching for file changes with StatReloader
+INFO 2023-09-26 09:41:52,900 basehttp 12192 7920 "GET / HTTP/1.1" 200 200
+ERROR 2023-09-26 09:42:01,405 log 12192 7920 Internal Server Error: /test
+Traceback (most recent call last):
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py", line 27, in get
+    return render(request, 'testvue.vue')
+  File "D:\virtualenv\nice\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'details()'
+ERROR 2023-09-26 09:42:01,409 basehttp 12192 7920 "GET /test HTTP/1.1" 500 143668
+ERROR 2023-09-26 09:42:02,067 log 12192 7920 Internal Server Error: /test
+Traceback (most recent call last):
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\virtualenv\nice\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\virtualenv\nice\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py", line 27, in get
+    return render(request, 'testvue.vue')
+  File "D:\virtualenv\nice\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+  File "D:\virtualenv\nice\lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'details()'
+ERROR 2023-09-26 09:42:02,067 basehttp 12192 7920 "GET /test HTTP/1.1" 500 143394
+INFO 2023-09-26 09:42:17,616 autoreload 12192 7620 C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py changed, reloading.
+INFO 2023-09-26 09:42:18,600 autoreload 2024 10928 Watching for file changes with StatReloader
+INFO 2023-09-26 09:55:48,366 autoreload 10312 8304 Watching for file changes with StatReloader
+INFO 2023-09-26 09:55:48,559 basehttp 10312 4960 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:58:22,149 autoreload 10284 12120 Watching for file changes with StatReloader
+INFO 2023-09-26 09:58:22,359 basehttp 10284 12340 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:58:25,907 basehttp 10284 12340 "GET /test HTTP/1.1" 200 551
+INFO 2023-09-26 09:58:42,620 basehttp 10284 12340 "GET /test HTTP/1.1" 200 553
+INFO 2023-09-26 09:58:42,689 basehttp 10284 12340 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-26 09:58:46,379 autoreload 12112 1832 Watching for file changes with StatReloader
+INFO 2023-09-26 09:58:46,542 basehttp 12112 12356 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 09:58:49,602 basehttp 12112 12356 "GET /test HTTP/1.1" 200 553
+INFO 2023-09-26 09:58:49,661 basehttp 12112 12356 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-26 10:07:31,252 autoreload 10312 8308 Watching for file changes with StatReloader
+INFO 2023-09-26 10:07:31,471 basehttp 10312 12120 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 10:07:35,526 basehttp 10312 12120 "GET /test HTTP/1.1" 200 593
+INFO 2023-09-26 10:14:08,672 basehttp 10312 7012 "GET /test HTTP/1.1" 200 0
+INFO 2023-09-26 10:20:01,091 autoreload 3628 1504 Watching for file changes with StatReloader
+INFO 2023-09-26 10:20:01,268 basehttp 3628 3796 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 10:20:04,249 basehttp 3628 3796 "GET /test HTTP/1.1" 200 1056
+WARNING 2023-09-26 10:20:04,265 log 3628 3796 Not Found: /vue.js
+WARNING 2023-09-26 10:20:04,266 basehttp 3628 3796 "GET /vue.js HTTP/1.1" 404 2647
+INFO 2023-09-26 10:21:55,597 autoreload 10628 10720 Watching for file changes with StatReloader
+INFO 2023-09-26 10:21:55,748 basehttp 10628 13064 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 10:21:56,616 basehttp 10628 13064 "GET /upload HTTP/1.1" 200 2370
+INFO 2023-09-26 16:01:31,070 autoreload 9800 7956 Watching for file changes with StatReloader
+INFO 2023-09-26 16:01:31,270 basehttp 9800 13268 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:01:33,674 basehttp 9800 13268 "GET /upload HTTP/1.1" 200 882
+INFO 2023-09-26 16:01:54,453 basehttp 9800 13268 "GET /upload HTTP/1.1" 200 882
+INFO 2023-09-26 16:02:54,797 autoreload 6872 11604 Watching for file changes with StatReloader
+INFO 2023-09-26 16:02:55,002 basehttp 6872 11376 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:02:56,434 basehttp 6872 11376 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:02:58,800 basehttp 6872 11376 "GET /upload HTTP/1.1" 200 247
+INFO 2023-09-26 16:03:08,896 autoreload 11868 10236 Watching for file changes with StatReloader
+INFO 2023-09-26 16:03:09,072 basehttp 11868 12672 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:03:20,574 autoreload 11460 5580 Watching for file changes with StatReloader
+INFO 2023-09-26 16:03:20,756 basehttp 11460 12044 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:03:27,071 autoreload 5112 10388 Watching for file changes with StatReloader
+INFO 2023-09-26 16:03:27,278 basehttp 5112 13068 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:03:38,632 basehttp 5112 13068 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:03:40,733 basehttp 5112 13068 "GET /upload HTTP/1.1" 200 882
+INFO 2023-09-26 16:04:29,781 autoreload 6832 6644 Watching for file changes with StatReloader
+INFO 2023-09-26 16:04:29,967 basehttp 6832 9816 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:04:31,615 basehttp 6832 9816 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:04:33,031 basehttp 6832 9816 "GET /upload HTTP/1.1" 200 867
+INFO 2023-09-26 16:05:26,078 autoreload 13164 2024 Watching for file changes with StatReloader
+INFO 2023-09-26 16:05:26,266 basehttp 13164 7884 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:05:27,883 basehttp 13164 7884 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:05:29,197 basehttp 13164 7884 "GET /upload HTTP/1.1" 200 867
+INFO 2023-09-26 16:05:29,255 basehttp 13164 7884 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-26 16:07:45,278 autoreload 5176 11184 Watching for file changes with StatReloader
+INFO 2023-09-26 16:07:45,505 basehttp 5176 6616 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:07:58,726 autoreload 11760 10044 Watching for file changes with StatReloader
+INFO 2023-09-26 16:07:58,902 basehttp 11760 3236 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:08:00,420 basehttp 11760 3236 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:08:01,991 basehttp 11760 3236 "GET /upload HTTP/1.1" 200 920
+INFO 2023-09-26 16:08:29,962 autoreload 7080 1512 Watching for file changes with StatReloader
+INFO 2023-09-26 16:08:30,139 basehttp 7080 2780 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:08:31,389 basehttp 7080 2780 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:08:32,867 basehttp 7080 2780 "GET /upload HTTP/1.1" 200 955
+INFO 2023-09-26 16:17:59,083 autoreload 8560 936 Watching for file changes with StatReloader
+INFO 2023-09-26 16:17:59,272 basehttp 8560 12468 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:18:01,215 basehttp 8560 12468 "GET /upload HTTP/1.1" 200 960
+INFO 2023-09-26 16:19:02,880 autoreload 12072 5040 Watching for file changes with StatReloader
+INFO 2023-09-26 16:19:03,060 basehttp 12072 11524 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:19:04,555 basehttp 12072 11524 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:19:05,990 basehttp 12072 11524 "GET /upload HTTP/1.1" 200 1037
+INFO 2023-09-26 16:20:01,275 autoreload 3132 4844 Watching for file changes with StatReloader
+INFO 2023-09-26 16:20:01,480 basehttp 3132 11916 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:20:02,719 basehttp 3132 11916 "GET /upload HTTP/1.1" 200 1548
+WARNING 2023-09-26 16:20:12,602 log 3132 11916 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:20:12,602 basehttp 3132 11916 "POST /upload HTTP/1.1" 403 2801
+WARNING 2023-09-26 16:20:16,201 log 3132 11916 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:20:16,201 basehttp 3132 11916 "POST /upload HTTP/1.1" 403 2801
+INFO 2023-09-26 16:21:20,268 autoreload 11164 8340 Watching for file changes with StatReloader
+INFO 2023-09-26 16:21:20,444 basehttp 11164 12200 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:21:21,433 basehttp 11164 12200 "GET /upload HTTP/1.1" 200 1528
+WARNING 2023-09-26 16:21:32,930 log 11164 12200 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:21:32,931 basehttp 11164 12200 "POST /upload HTTP/1.1" 403 2801
+WARNING 2023-09-26 16:21:53,238 log 11164 12200 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:21:53,238 basehttp 11164 12200 "POST /upload HTTP/1.1" 403 2801
+INFO 2023-09-26 16:22:22,804 autoreload 10472 10268 Watching for file changes with StatReloader
+INFO 2023-09-26 16:22:23,009 basehttp 10472 12048 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:22:24,043 basehttp 10472 12048 "GET /upload HTTP/1.1" 200 1535
+WARNING 2023-09-26 16:22:29,766 log 10472 12048 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:22:29,767 basehttp 10472 12048 "POST /upload HTTP/1.1" 403 2801
+INFO 2023-09-26 16:23:18,789 autoreload 3572 12748 Watching for file changes with StatReloader
+INFO 2023-09-26 16:23:18,978 basehttp 3572 10820 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:23:20,226 basehttp 3572 10820 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:23:21,191 basehttp 3572 10820 "GET /upload HTTP/1.1" 200 1573
+WARNING 2023-09-26 16:23:30,202 log 3572 10820 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:23:30,202 basehttp 3572 10820 "POST /upload HTTP/1.1" 403 2801
+INFO 2023-09-26 16:25:20,407 basehttp 3572 10820 "GET /upload HTTP/1.1" 200 1573
+INFO 2023-09-26 16:25:20,485 basehttp 3572 10820 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+INFO 2023-09-26 16:25:54,856 autoreload 3796 3368 Watching for file changes with StatReloader
+INFO 2023-09-26 16:25:55,103 basehttp 3796 11912 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:25:56,960 basehttp 3796 11912 "GET /upload HTTP/1.1" 200 1576
+WARNING 2023-09-26 16:26:02,803 log 3796 11912 Not Found: /uploadsss
+WARNING 2023-09-26 16:26:02,803 basehttp 3796 11912 "POST /uploadsss HTTP/1.1" 404 2660
+INFO 2023-09-26 16:30:27,699 autoreload 3796 3368 C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py changed, reloading.
+INFO 2023-09-26 16:30:28,693 autoreload 9932 5128 Watching for file changes with StatReloader
+INFO 2023-09-26 16:31:40,123 autoreload 9932 5128 C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py changed, reloading.
+INFO 2023-09-26 16:31:40,859 autoreload 12824 9456 Watching for file changes with StatReloader
+INFO 2023-09-26 16:37:45,019 autoreload 10208 13028 Watching for file changes with StatReloader
+INFO 2023-09-26 16:37:45,212 basehttp 10208 2060 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:37:47,100 basehttp 10208 2060 "GET /upload HTTP/1.1" 200 2092
+INFO 2023-09-26 16:38:24,237 autoreload 7424 12864 Watching for file changes with StatReloader
+INFO 2023-09-26 16:38:24,400 basehttp 7424 12924 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:38:28,647 basehttp 7424 12924 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:38:29,919 basehttp 7424 12924 "GET /upload HTTP/1.1" 200 2128
+INFO 2023-09-26 16:40:20,171 autoreload 11676 4596 Watching for file changes with StatReloader
+INFO 2023-09-26 16:40:20,351 basehttp 11676 2420 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:40:22,996 basehttp 11676 2420 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:40:24,445 basehttp 11676 2420 "GET /upload HTTP/1.1" 200 2209
+INFO 2023-09-26 16:41:55,251 basehttp 11676 2420 "GET / HTTP/1.1" 200 200
+INFO 2023-09-26 16:41:56,559 basehttp 11676 2420 "GET /upload HTTP/1.1" 200 1653
+INFO 2023-09-26 16:42:05,730 basehttp 11676 2420 "GET /upload HTTP/1.1" 200 1653
+INFO 2023-09-26 16:42:05,795 basehttp 11676 2420 "GET /static/js/vue.global.js HTTP/1.1" 200 640610
+WARNING 2023-09-26 16:42:09,010 log 11676 2420 Forbidden (CSRF cookie not set.): /upload
+WARNING 2023-09-26 16:42:09,010 basehttp 11676 2420 "POST /upload HTTP/1.1" 403 2801
+INFO 2023-09-27 11:44:23,716 autoreload 11676 4596 C:\Users\F1241948\Desktop\studyProject\greatWisdom\fileSystem\views.py changed, reloading.
+INFO 2023-09-27 11:44:25,216 autoreload 8624 11496 Watching for file changes with StatReloader

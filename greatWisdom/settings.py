@@ -174,7 +174,7 @@ LOGGING = {
     'loggers': {
         'django': {                             # 记录django项目中的信息
             'handlers': ['file'],               # 使用 file日志处理器
-            'level': 'INFO',                    # 日志等级为DEBUG
+            'level': 'DEBUG',                    # 日志等级
             'propagate': True,                  # 允许传播至上级记录器
         }
     }

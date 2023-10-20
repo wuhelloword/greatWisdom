@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>文件上传示例</title>
+      <script src="/static/js/vue.global.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jqery.min.js"></script>
+</head>
+<body>
+<div id="app">
+    <input type="file" id="fileInput">
+    <button onclick="test()">上传</button>
+</div>
+
+<script>
+    function test(){
+        console.log('test test')
+        var fileInput = document.getElementById('fileInput');
+        var file = fileInput.files[0];
+
+        var formData = new FormData();
+        formData.append('file', file);
+
+        var request = new XMLHttpRequest();
+        request.open('POST', '/upload');
+
+        request.onreadystatechange = function() {
+            alert(request.status)
+            if (request.readyState === 4 && request.status === 200) {
+                alert(request.status)
+              console.log(request.responseText);
+            }
+        };
+
+        request.send(formData);
+    }
+</script>
+
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        uploadFile() {
+            alert('test methods ')
+          var fileInput = document.getElementById('fileInput');
+          var file = fileInput.files[0];
+
+          var formData = new FormData();
+          formData.append('file', file);
+
+          var request = new XMLHttpRequest();
+          request.open('POST', '/upload');
+
+          request.onreadystatechange = function() {
+            if (request.readyState === 4 && request.status === 200) {
+              console.log(request.responseText);
+            }
+          };
+
+          request.send(formData);
+        }
+      }
+    });
+  </script>
+</body>
+</html>
