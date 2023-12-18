@@ -1,5 +1,6 @@
 import time
 from datetime import datetime, timedelta
+from matplotlib import pyplot as plt
 
 def get_max(num_list, operator):
     """
@@ -64,6 +65,47 @@ def shabebe():
     # except:
     #     pass
 
+# class CommonFlag(object):
+#     """
+#     ui参数，将选项的字符串值根据逻辑转为Bool类型
+#     """
+#     if_fa = None
+#     delete_retest = None
+#     ui_apple_pass = None
+#
+#     @classmethod
+#     def set_flag(cls, ui_param: UiParam):
+#         if cls.if_fa is None or cls.delete_retest is None or cls.ui_apple_pass is None:
+#             _check_value = lambda v, key_value: isinstance(v, str) and v.lower() == key_value
+#             if _check_value(ui_param.re_test_data, 'no'):
+#                 cls.delete_retest = True
+#                 cls.if_fa = False
+#             elif _check_value(ui_param.re_test_data, 'all'):
+#                 cls.delete_retest = False
+#                 cls.if_fa = False
+#             else:
+#                 cls.delete_retest = False
+#                 cls.if_fa = True
+#
+#             if _check_value(ui_param.apple_pass, 'y'):
+#                 cls.ui_apple_pass = True
+#             else:
+#                 cls.ui_apple_pass = True
+#
+#     @classmethod
+#     def get_time_distance(cls, ui_param: UiParam):
+#         """
+#         @note: This is for FA situation, which won't be used that much
+#         """
+#         if ui_param.keep_fa_time:
+#             return ui_param.keep_fa_time * 3600
+#         else:
+#             cls.if_fa = False
+#             msg = "U had chosen FA, but forgot to fill in the FA Time..."
+#             print(msg + ' then the if_fa  is set to False !')
+#             MessagePushServer.gui_print(msg, color='black')
+
+
 
 
 if __name__ == '__main__':
@@ -71,7 +113,19 @@ if __name__ == '__main__':
     # print(get_max([None, 1, 3, 2], "<"))
     # get_date()
     # get_time()
-    shabebe()
+    # shabebe()
+
+
+
+    # 创建一个带有单个值的数据
+    x = [0]  # x 坐标值
+    y = [5]  # y 坐标值
+
+    # 绘制点
+    plt.plot(x, y, marker='o')
+
+    # 显示图形
+    plt.show()
 
 
 
